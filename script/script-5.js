@@ -77,8 +77,8 @@ btn.addEventListener('click', function(){
 
     // 버튼 3번 클릭하면 버튼 비활성화
     if(moreCount == 3){
-        moreBtn.disabled = true;
-        moreBtn.style.color = '#656565';
-        moreBtn.style.backgroundColor = '#E6E6E6';
+        btn.disabled = true;
+        btn.style.color = '#656565';
+        btn.style.backgroundColor = '#E6E6E6';
     }
 });
